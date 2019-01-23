@@ -17,7 +17,9 @@ public class CountItSelf{
 			if (selected < count){
 				return false;
 			}
-			if (selected == count)
+			if (selected == count){
+				result = true;
+			}
 		}
 		return result;
 
